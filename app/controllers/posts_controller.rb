@@ -19,7 +19,7 @@ class PostsController < ApplicationController
   end
 
   #postRequest http://localhost:3000/posts/
-    #Header: Content-Type (key), Content-Type (value)
+    #Header: Content-Type (key), application/x-www-form-urlencoded (value)
     #Body:
       #title (key), 'Pizza' (value)
       #author (key), 'Jason Sutter' (value)
